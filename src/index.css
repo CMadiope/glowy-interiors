@@ -6,3 +6,19 @@ body {
   font-family: sans-serif;
   background-color: #E3E2E0;
 }
+@layer base {
+  h1 {
+    @apply text-3xl
+  }
+  h2 {
+    @apply text-2xl
+  }
+
+  h3 {
+    @apply text-xl
+  }
+  a {
+    @apply hover:font-bold text-base
+    
+  }
+}
